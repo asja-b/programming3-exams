@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDLWMS" targetNamespace="http://tempuri.org/dsDLWMS.xsd" xmlns:mstns="http://tempuri.org/dsDLWMS.xsd" xmlns="http://tempuri.org/dsDLWMS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDLWMS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsDLWMS" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsDLWMS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsStipendije" msprop:Generator_RowEvHandlerName="dsStipendijeRowChangeEventHandler" msprop:Generator_RowDeletedName="dsStipendijeRowDeleted" msprop:Generator_RowDeletingName="dsStipendijeRowDeleting" msprop:Generator_RowEvArgName="dsStipendijeRowChangeEvent" msprop:Generator_TablePropName="dsStipendije" msprop:Generator_RowChangedName="dsStipendijeRowChanged" msprop:Generator_RowChangingName="dsStipendijeRowChanging" msprop:Generator_TableClassName="dsStipendijeDataTable" msprop:Generator_RowClassName="dsStipendijeRow" msprop:Generator_TableVarName="tabledsStipendije" msprop:Generator_UserTableName="dsStipendije">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Rb" msprop:Generator_ColumnPropNameInRow="Rb" msprop:Generator_ColumnPropNameInTable="RbColumn" msprop:Generator_ColumnVarNameInTable="columnRb" msprop:Generator_UserColumnName="Rb" type="xs:string" minOccurs="0" />
+              <xs:element name="BrojIndeksaImePrezime" msprop:Generator_ColumnPropNameInRow="BrojIndeksaImePrezime" msprop:Generator_ColumnPropNameInTable="BrojIndeksaImePrezimeColumn" msprop:Generator_ColumnVarNameInTable="columnBrojIndeksaImePrezime" msprop:Generator_UserColumnName="BrojIndeksaImePrezime" type="xs:string" minOccurs="0" />
+              <xs:element name="MjesečniIznos" msprop:Generator_ColumnPropNameInRow="MjesečniIznos" msprop:Generator_ColumnPropNameInTable="MjesečniIznosColumn" msprop:Generator_ColumnVarNameInTable="columnMjesečniIznos" msprop:Generator_UserColumnName="MjesečniIznos" type="xs:string" minOccurs="0" />
+              <xs:element name="UkupniIznos" msprop:Generator_ColumnPropNameInRow="UkupniIznos" msprop:Generator_ColumnPropNameInTable="UkupniIznosColumn" msprop:Generator_ColumnVarNameInTable="columnUkupniIznos" msprop:Generator_UserColumnName="UkupniIznos" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
