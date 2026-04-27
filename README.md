@@ -59,6 +59,6 @@ programming3-exams/
 
 ## 👩‍💻 Author
 
-**Asja Brčaninović** — IB230030  
+**Asja Brčaninović**  
 Software Engineering, Faculty of Information Technologies  
 University "Džemal Bijedić", Mostar
